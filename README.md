@@ -7,7 +7,7 @@
 
 **Descripción**:  Este es un curso práctico de solución de problemas ingenieriles utilizando sistemas microcontrolados. Al final del curso los estudiantes estarán preparados para resolver problemas reales de control de equipos y procesos utilizando micro-controladores. El repositorio dividirá en carpetas diferentes las soluciones de los problemas propuestos, la estructura sera la siguiente:
 
-
+---
 Microcontroladores-Labs/
 │
 ├── **Lab1/**                  # Carpeta para el Laboratorio 1
@@ -24,7 +24,7 @@ Microcontroladores-Labs/
 │
 └── 📄 **README.md**           # Este archivo, descripción general del repositorio
 
-
+---
 
 # Guía de uso
 
