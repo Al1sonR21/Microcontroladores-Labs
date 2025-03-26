@@ -195,7 +195,7 @@ _00117_DS_:
 _00137_DS_:
 	BTFSS	STATUS,0
 	GOTO	_00117_DS_
-;;genSkipc:3307: created from rifx:0x7ffc9eccb8e0
+;;genSkipc:3307: created from rifx:0x7ffdf011b200
 ;;swapping arguments (AOP_TYPEs 1/2)
 ;;unsigned compare: left >= lit(0x7=7), size=2
 	MOVLW	0x00
@@ -208,7 +208,7 @@ _00137_DS_:
 _00138_DS_:
 	BTFSC	STATUS,0
 	GOTO	_00117_DS_
-;;genSkipc:3307: created from rifx:0x7ffc9eccb8e0
+;;genSkipc:3307: created from rifx:0x7ffdf011b200
 	BANKSEL	r0x1013
 	DECF	r0x1013,W
 	MOVWF	r0x1018
@@ -249,7 +249,7 @@ _00105_DS_:
 ;	.line	27; "programa.c"	break;
 	GOTO	_00117_DS_
 _00106_DS_:
-;	.line	29; "programa.c"	GPIO = 0b00010101; // Pares GPIO0 y GPIO4 encendidos y central GPIO1
+;	.line	29; "programa.c"	GPIO = 0b00010101; // Pares GPIO0 y GPIO2 encendidos y central GPIO4
 	MOVLW	0x15
 	BANKSEL	_GPIO
 	MOVWF	_GPIO
@@ -542,7 +542,7 @@ _00150_DS_:
 _00171_DS_:
 	BTFSC	STATUS,0
 	GOTO	_00152_DS_
-;;genSkipc:3307: created from rifx:0x7ffc9eccb8e0
+;;genSkipc:3307: created from rifx:0x7ffdf011b200
 ;	.line	72; "programa.c"	for (j = 0; j < 256; j++);
 	BANKSEL	r0x100F
 	CLRF	r0x100F

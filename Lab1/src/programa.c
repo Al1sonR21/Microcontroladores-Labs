@@ -26,7 +26,7 @@ void main(void) {
                 GPIO = 0b00000000;
                 break;
             case 5: // Se encienden 2 pares de LEDs y el central (2x2+1=5)
-                GPIO = 0b00010101; // Pares GPIO0 y GPIO4 encendidos y central GPIO1
+                GPIO = 0b00010101; // Pares GPIO0 y GPIO2 encendidos y central GPIO4
 				// Apagar los LEDS:
                 esperar(duracion);
                 GPIO = 0b00000000;

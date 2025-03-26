@@ -1,6 +1,6 @@
 gplink-1.4.0 #1107 (Jan  1 2021)
 Copyright (c) 1998-2014 gputils project
-Listing File Generated: 3-25-2025  21:02:49
+Listing File Generated: 3-25-2025  22:46:04
  
  
 Address  Value    Disassembly              Source
@@ -212,7 +212,7 @@ Address  Value    Disassembly              Source
                                            _00137_DS_:
 00001d   1c03     btfss   0x03, 0x0        	BTFSS	STATUS,0
 00001e   2813     goto    0x0013           	GOTO	_00117_DS_
-                                           ;;genSkipc:3307: created from rifx:0x7ffc9eccb8e0
+                                           ;;genSkipc:3307: created from rifx:0x7ffdf011b200
                                            ;;swapping arguments (AOP_TYPEs 1/2)
                                            ;;unsigned compare: left >= lit(0x7=7), size=2
 00001f   3000     movlw   0x00             	MOVLW	0x00
@@ -225,7 +225,7 @@ Address  Value    Disassembly              Source
                                            _00138_DS_:
 000026   1803     btfsc   0x03, 0x0        	BTFSC	STATUS,0
 000027   2813     goto    0x0013           	GOTO	_00117_DS_
-                                           ;;genSkipc:3307: created from rifx:0x7ffc9eccb8e0
+                                           ;;genSkipc:3307: created from rifx:0x7ffdf011b200
 000028   1683     bsf     0x03, 0x5        	BANKSEL	r0x1013
 000029   0320     decf    0x20, 0x0        	DECF	r0x1013,W
 00002a   00a5     movwf   0x25             	MOVWF	r0x1018
@@ -266,7 +266,7 @@ Address  Value    Disassembly              Source
                                            ;	.line	27; "programa.c"	break;
 000045   2813     goto    0x0013           	GOTO	_00117_DS_
                                            _00106_DS_:
-                                           ;	.line	29; "programa.c"	GPIO = 0b00010101; // Pares GPIO0 y GPIO4 encendidos y central GPIO1
+                                           ;	.line	29; "programa.c"	GPIO = 0b00010101; // Pares GPIO0 y GPIO2 encendidos y central GPIO4
 000046   3015     movlw   0x15             	MOVLW	0x15
 000047   1283     bcf     0x03, 0x5        	BANKSEL	_GPIO
 000048   0085     movwf   0x05             	MOVWF	_GPIO
@@ -559,7 +559,7 @@ Address  Value    Disassembly              Source
                                            _00171_DS_:
 00021f   1803     btfsc   0x03, 0x0        	BTFSC	STATUS,0
 000220   2a3b     goto    0x023b           	GOTO	_00152_DS_
-                                           ;;genSkipc:3307: created from rifx:0x7ffc9eccb8e0
+                                           ;;genSkipc:3307: created from rifx:0x7ffdf011b200
                                            ;	.line	72; "programa.c"	for (j = 0; j < 256; j++);
 000221   1683     bsf     0x03, 0x5        	BANKSEL	r0x100F
 000222   01ab     clrf    0x2b             	CLRF	r0x100F
